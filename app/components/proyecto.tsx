@@ -22,7 +22,7 @@ const Proyecto: React.FC<ProyectoProps> = ({
 }) => {
   return (
     <div className="flex flex-col">
-      <img alt={ubicacion} src={imagen} />
+      <Image alt={ubicacion} src={imagen} />
       <div className="flex flex-col gap-4">
         <p className="mt-6 mb-8">{ubicacion}</p>
         <hr className="border-2" />
